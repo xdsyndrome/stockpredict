@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+# Test Cases should be parked under tests folder in future
 def get_mean(df, high, low, mean):
     df[mean] = (df[high] - df[low]) / 2
     return df
